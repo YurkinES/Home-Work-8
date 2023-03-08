@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //Task #1
@@ -47,5 +49,13 @@ public class Main {
             }
             System.out.print(arrT3[index] + ", ");
         }
+        //Task #4
+        for(int index = 0; index < arrT1.length; index++) {
+            if (arrT1[index] % 2 != 0) {
+                arrT1[index]++;
+            }
+        }
+        System.out.println(Arrays.toString(arrT1));
+
     }
 }
