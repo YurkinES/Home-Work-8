@@ -25,5 +25,27 @@ public class Main {
                 }
                 System.out.print(arrT3[index] + ", ");
         }
+        //Task #3
+        for(int index = arrT1.length - 1; index >= 0 ; index--) {
+            if (index == 0 ) {
+                System.out.println(arrT1[index]);
+                break;
+            }
+            System.out.print(arrT1[index] + ", ");
+        }
+        for(int index = arrT2.length - 1; index >= 0 ; index--) {
+            if (index == 0 ) {
+                System.out.println(arrT2[index]);
+                break;
+            }
+            System.out.print(arrT2[index] + ", ");
+        }
+        for(int index = arrT3.length - 1; index >= 0 ; index--) {
+            if (index == 0 ) {
+                System.out.println(arrT3[index]);
+                break;
+            }
+            System.out.print(arrT3[index] + ", ");
+        }
     }
 }
